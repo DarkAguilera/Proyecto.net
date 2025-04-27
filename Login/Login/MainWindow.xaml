@@ -1,0 +1,51 @@
+﻿<Window x:Class="Login.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Login"
+        mc:Ignorable="d"
+        Title="Iniciar sesión" Height="400" Width="450" WindowStartupLocation="CenterScreen">
+
+    <Grid Background="#F0F0F0">
+
+        <!-- Barra de menú -->
+        <Menu Background="#8B0000" Margin="0,0,0,333">
+            <MenuItem Header="Inicio" Foreground="White"/>
+            <MenuItem Header="Membresías" Foreground="White"/>
+            <MenuItem Header="Rutinas" Foreground="White"/>
+            <MenuItem Header="Ayuda" Foreground="White"/>
+            <MenuItem Header="Log In" Foreground="White" HorizontalAlignment="Right"/>
+            <MenuItem Header="Sign Up" Foreground="White" FontWeight="Bold"/>
+        </Menu>
+
+        <!-- Contenedor de login -->
+        <Border Width="320" Height="240" Background="White" CornerRadius="10"
+                VerticalAlignment="Center" HorizontalAlignment="Center"
+                Padding="20" BorderBrush="Gray" BorderThickness="1">
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Stretch">
+
+                <!-- Título -->
+                <TextBlock Text="Iniciar sesión" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+
+                <!-- Campo de usuario -->
+                <TextBlock Text="Email o nombre de usuario" FontSize="12" Margin="0,0,0,5"/>
+                <TextBox x:Name="txtUsername" Height="30"/>
+
+                <!-- Campo de contraseña -->
+                <TextBlock Text="Contraseña" FontSize="12" Margin="10,10,0,5"/>
+                <PasswordBox x:Name="txtPassword" Height="30"/>
+
+                <!-- Enlace para recuperar contraseña -->
+                <TextBlock Text="¿Olvidaste tu contraseña?" Foreground="Blue" FontSize="12" HorizontalAlignment="Right" Margin="0,5,0,10">
+                    <TextBlock.Cursor>Hand</TextBlock.Cursor>
+                </TextBlock>
+
+                <!-- Botón de inicio de sesión -->
+                <Button Content="Entrar" Height="35" Background="#8B0000" Foreground="White" FontWeight="Bold" Cursor="Hand"/>
+
+            </StackPanel>
+        </Border>
+
+    </Grid>
+</Window>

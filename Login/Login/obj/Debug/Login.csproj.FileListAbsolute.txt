@@ -1,0 +1,15 @@
+C:\Users\Uriel\source\repos\Login\Login\bin\Debug\Login.exe.config
+C:\Users\Uriel\source\repos\Login\Login\bin\Debug\Login.exe
+C:\Users\Uriel\source\repos\Login\Login\bin\Debug\Login.pdb
+C:\Users\Uriel\source\repos\Login\Login\obj\Debug\Login.csproj.AssemblyReference.cache
+C:\Users\Uriel\source\repos\Login\Login\obj\Debug\MainWindow.g.cs
+C:\Users\Uriel\source\repos\Login\Login\obj\Debug\App.g.cs
+C:\Users\Uriel\source\repos\Login\Login\obj\Debug\Login_MarkupCompile.cache
+C:\Users\Uriel\source\repos\Login\Login\obj\Debug\Login_MarkupCompile.lref
+C:\Users\Uriel\source\repos\Login\Login\obj\Debug\MainWindow.baml
+C:\Users\Uriel\source\repos\Login\Login\obj\Debug\Login.g.resources
+C:\Users\Uriel\source\repos\Login\Login\obj\Debug\Login.Properties.Resources.resources
+C:\Users\Uriel\source\repos\Login\Login\obj\Debug\Login.csproj.GenerateResource.cache
+C:\Users\Uriel\source\repos\Login\Login\obj\Debug\Login.csproj.CoreCompileInputs.cache
+C:\Users\Uriel\source\repos\Login\Login\obj\Debug\Login.exe
+C:\Users\Uriel\source\repos\Login\Login\obj\Debug\Login.pdb
